@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  MeiTuanCopy
+//
+//  Created by wangfeng on 16/1/26.
+//  Copyright © 2016年 HustBroventure. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#ifdef DEBUG
+#define ECLog(...) NSLog(@"文件：%s行号:%d方法名:%s\n %@\n\n",__FILE__,__LINE__,__func__,[NSString stringWithFormat:__VA_ARGS__]);
+#else
+#define ECLog(...)
+#endif
+
+
+//#if TARGET_IPHONE_SIMULATOR
+//#define HOST_NAME  @"127.0.0.1"
+//#elif TARGET_OS_IPHONE
+//#define HOST_NAME  @"192.168.1.242"
+//#endif
+
+
+
+
+#endif /* PrefixHeader_pch */
