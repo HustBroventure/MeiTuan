@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "BaseTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +21,7 @@
     UIWindow* window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     window.backgroundColor = [UIColor whiteColor];
     self.window = window;
-    self.window.rootViewController = [UIViewController new];
+    self.window.rootViewController = [BaseTabBarController new];
     [self.window makeKeyAndVisible];
     return YES;
 }

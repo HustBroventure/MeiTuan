@@ -1,9 +1,9 @@
 //
 //  BaseTabBarController.h
-//  HBProjectDemo
+//  MeiTuanCopy
 //
-//  Created by wangfeng on 16/1/26.
-//  Copyright © 2016年 HustBroventurre. All rights reserved.
+//  Created by wangfeng on 16/1/27.
+//  Copyright © 2016年 HustBroventure. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
